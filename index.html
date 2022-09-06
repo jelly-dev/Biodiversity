@@ -7,26 +7,41 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <h1><b>Belly Button Biodiversity Dashboard</b></h1>
+        <p><b><i>Use the interactive charts below to explore the dataset.</i></b></p>
       </div>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <h3><strong><em>Project Background</em></strong></h3>
+        </div>
+            <div class="col-md-8">
+                <p>Rosa has a completed panel for demographic information and now needs to visualize the bacterial data for each volunteer.
+                  Specifically, volunteers should be able to identify the top 10 bacterial species in their belly buttons.
+                  That way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef,
+                  volunteers will be able to identify whether that species is found in their navel.<br /><br />
+                </p>
+            </div>
+        </div>
+    </div>
     </div>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
-          <h5>Test Subject ID No.:</h5>
+          <h5><b>Test Subject ID No.:</b></h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
+            <h3 class="panel-title"><b>Demographic Info</b></h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>

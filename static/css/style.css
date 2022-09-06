@@ -1,0 +1,12 @@
+body {
+
+    color: black;
+    background-color: #b1dffa;
+  }
+
+  .jumbotron {
+    background-color: aliceblue;
+    background-image: url("../images/jumbotronbg.jpg");
+    background-size: 100%,100%;
+    text-align: center;
+  }
